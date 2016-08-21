@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SuperMAP</string>
+    <string name="hello_world">Hello world!</string>
+
+    <color name="blue">#036eb8</color>
+    <color name="press_btn">#3399cc</color>
+    <color name="red">#FF0000</color>
+    <color name="red_press">#cc0000</color>
+    <color name="black">#000000</color>
+    <!-- 蓝色背景 -->
+    <color name="nav_bar_bg">#036eb8</color>
+    <!-- 界面灰色背景 -->
+    <color name="gray_bg">#ededed</color>
+
+    <string name="title_activity_second">SecondA</string>
+    <string name="title_activity_second_b">SecondB</string>
+    <string name="title_activity_second_c">SecondC</string>
+    <string name="title_activity_second_d">SecondD</string>
+    <string name="title_activity_second_e">SecondE</string>
+    <string name="title_activity_second_f">SecondF</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_before_main">BeforeMainActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_bndemo_guide">BNDemoGuideActivity</string>
+
+</resources>

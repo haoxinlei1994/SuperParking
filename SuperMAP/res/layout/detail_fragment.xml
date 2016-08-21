@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.supermap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.common.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        custom:tittle="预定车位"
+        custom:tittleTextColor="#FFFFFF"
+        custom:tittleTextSize="6sp" >
+    </com.example.common.TopBar>
+
+    <ImageView
+        android:id="@+id/iv_cry"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cry"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/contentLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@id/topbar" >
+
+        <TextView
+            android:id="@+id/tv_yuding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="您预定的车位:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_yuding_write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_yuding"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_yuding"
+            android:textSize="20dp" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_yuding"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_bg" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/view1"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="20dp"
+            android:text="停车位地点:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_adress_write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_address"
+            android:layout_alignBottom="@+id/tv_address"
+            android:layout_toRightOf="@id/tv_address"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_address"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_bg" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/view2"
+            android:layout_below="@+id/view2"
+            android:layout_marginTop="20dp"
+            android:text="预定时间:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_time_write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_time"
+            android:layout_alignBottom="@+id/tv_time"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_time"
+            android:textSize="20dp" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_time"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_bg" />
+
+        <TextView
+            android:id="@+id/tv_time_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/view3"
+            android:layout_below="@+id/view3"
+            android:layout_marginTop="20dp"
+            android:text="到期时间:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_time_end_write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_time_end"
+            android:layout_alignBottom="@+id/tv_time_end"
+            android:layout_toRightOf="@id/tv_time_end"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_time_end"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_bg" />
+
+        <Button
+            android:id="@+id/cancle_yuding"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/view4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/selector_btn"
+            android:text="取消预定"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_cry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_cry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="您还没有预定车位，赶快去预定吧！"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,265 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.supermap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6FFA6" >
+
+    <com.example.common.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        custom:leftBackground="@color/nav_bar_bg"
+        custom:leftText="返回"
+        custom:leftTextColor="#FFFFFF"
+        custom:tittle="篮球场后小路"
+        custom:tittleTextColor="#FFFFFF"
+        custom:tittleTextSize="6sp" >
+    </com.example.common.TopBar>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/road"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/A01"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A02"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A03"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A04"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A05"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A06"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A07"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A08"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A09"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/A10"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A11"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A12"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A13"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A14"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A15"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A16"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A17"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+
+        <Button
+            android:id="@+id/A18"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/car_shu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@+id/linearLayout2"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/linearLayout3"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/shu" />
+    </LinearLayout>
+
+</RelativeLayout>
